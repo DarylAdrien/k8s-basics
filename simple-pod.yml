@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-pod
+spec:
+  containers:
+  - name: flask-app
+    image: daryladriene/docker-stages:single-stage-v1
+    ports:
+    - containerPort: 5000
+
