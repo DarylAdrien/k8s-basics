@@ -6,7 +6,7 @@ This repository contains a basic Kubernetes setup including configurations for a
 
 ## **Project Structure**
 
-1. **`pod.yml`**:
+1. **`simple-pod.yml`**:
    - Defines a simple Pod that runs a specified Docker image.
    - Serves as the foundation of the Kubernetes setup.
 
@@ -36,7 +36,7 @@ This repository contains a basic Kubernetes setup including configurations for a
 
 2. Apply the Pod configuration:
    ```bash
-   kubectl apply -f pod.yml
+   kubectl apply -f simple-pod.yml
    ```
 
 3. Apply the Deployment configuration:
